@@ -443,7 +443,7 @@ figcaption{
     font-size: 17px;
     border: black 2px;
   }
-  body{
+  .footerHome{
       background-color: rgba(169, 169, 169, 0.967);
     }
     /*-------------------------------------------------HOME*/
