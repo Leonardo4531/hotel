@@ -162,6 +162,17 @@ label{
 .fondoHome{
         background-image: linear-gradient(to bottom, red, orange);
     }
+        .imagenes:hover{
+        transform: translateY(-30px);
+        transition-property: all;
+        transition-duration: 1s;
+
+    }
+    .imagenArgentina:hover{
+        transform: translateY(-30px);
+        transition-property: all;
+        transition-duration: 1s; 
+    }
 /**/
 @media (min-width:1023px){
     .grilla{
@@ -253,17 +264,7 @@ label{
         font-family:'Dosis', sans-serif;
         color: rgb(0, 0, 0);
     }
-    .imagenes:hover{
-        transform: translateY(-30px);
-        transition-property: all;
-        transition-duration: 1s;
 
-    }
-    .imagenArgentina:hover{
-        transform: translateY(-30px);
-        transition-property: all;
-        transition-duration: 1s; 
-    }
 
 
     /*--------------------------------------------------------------------------------------------------------------home*/
