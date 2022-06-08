@@ -159,6 +159,9 @@ label{
     height: 200px;
     width: 500px;
 }
+.fondoHome{
+        background-image: linear-gradient(to bottom, red, orange);
+    }
 /**/
 @media (min-width:1023px){
     .grilla{
@@ -177,6 +180,7 @@ label{
     .headerHome{
         grid-area: arriba;
         display: flex;
+        background-color: red;
     }
     .tituloHome{
         grid-area: titulo;
@@ -184,6 +188,7 @@ label{
         font-family:'Dosis', sans-serif;
         font-size: 700%;
         justify-content: center;
+        background-color: green;
     }
     .buscadorHome{
         grid-area: buscador;
@@ -191,6 +196,7 @@ label{
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        background-color: blue;
     }
     .contenedorImagenes{
         grid-area: imagenes;
@@ -198,6 +204,7 @@ label{
         align-content: center;
         align-items: center;
         justify-content: space-evenly;
+        background-color: orange;
     }
     .footerHome{
         grid-area: abajo;
@@ -257,9 +264,7 @@ label{
         transition-property: all;
         transition-duration: 1s; 
     }
-    .fondoHome{
-        background-image: linear-gradient(to bottom, red, orange);
-    }
+
 
     /*--------------------------------------------------------------------------------------------------------------home*/
     .gridH{
