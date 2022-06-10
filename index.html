@@ -5,67 +5,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="./estilos/estilos.css">
 </head>
 
-<body class="fondoHome">
-    <div class="grilla"> 
-    <header class="headerHome">
-        <nav class="navHome">
-            <ul class="marcoHome">
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="./secciones/hoteles.html">Hotels</a>
-                </li>
-                <li>
-                    <a href="./secciones/lugares.html">Places</a>
-                </li>
-                <li>
-                    <a href="https://tipsparatuviaje.com/lugares-para-vacacionar-en-el-mundo/">Recomendations</a>
-                </li>
-                <li>
-                    <a href="./secciones/soporte.html">Help</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    
-        <h1 class="tituloHome">
-            Hotel GO
-        </h1>
-
-
-        <div class="buscadorHome">
-            <h2 class="subtituloHome">
-                Where do you want to go?
-            </h2 >
-            <input type="text" placeholder="Search..">
-        </div>
-            <div class="contenedorImagenes">
-                <figure class="imagenes">
-                <img src="./img/torre eiffel.jpg" alt="torre eiffel vista desde los jardines de trocadéro en francia" max-w>
-                <figcaption>Francia</figcaption>
-                </figure>
-                <figure class="imagenes">
-                <img src="./img/camino de tierra.jpg" alt="sendero de tierra rodeado de arboles en panama">
-                <figcaption>Panama</figcaption>
-                </figure>
-                <figure class="imagenes">
-                <img src="./img/italia.jpg" alt="ciudad costera de italia">
-                <figcaption>Italia</figcaption>
-                </figure>
-                <figure class="imagenArgentina">
-                <img src="./img/cataratas corrientes.jpg" alt="cataratas en corrientes">
-                <figcaption>Argentina</figcaption>
-                </figure>
+<body>
+   <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="./secciones/hoteles.html">Hotels</a>
+              <a class="nav-link active" href="#">Places</a>
+              <a class="nav-link active" href="#">Recomendations</a>
+              <a class="nav-link active">Support</a>
             </div>
+          </div>
         </div>
+      </nav>
+   </header>
 
-    <footer class="footerHome">
+   <main>
+       <div class="d-flex justify-content-center mt-5 mb-5 fs-1">
+            <h1>Hotel GO</h1>
+        </div>
+    <section >
+        <h2 class="d-flex justify-content-center mt-5">where do you whant to GO?</h2>
+        <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid d-flex justify-content-center">
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+    </section>
+ <section>
+    <div class="text-center d-flex justify-content-evenly mt-5">
+        <img src="https://dummyimage.com/200x200/0033ff/0011ff" class="rounded" alt="lugar de prueba">
+        <img src="https://dummyimage.com/200x200/0033ff/0011ff" class="rounded" alt="lugar de prueba">
+        <img src="https://dummyimage.com/200x200/0033ff/0011ff" class="rounded" alt="lugar de prueba">
+        <img src="https://dummyimage.com/200x200/0033ff/0011ff" class="rounded" alt="lugar de prueba">
+      </div>
+
+ </section>
+
+
+
+
+   </main>
+
+
+
+
+
+
+
+    <footer>
     </footer>
-  </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 
 </html>
