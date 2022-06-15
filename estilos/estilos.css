@@ -3,140 +3,15 @@
     padding: 0;
     margin: 0;
 }
-
-/*
-.headerHome{
-    background-color: aquamarine;
-    padding: 10px 10px 10px 10px;
-    position: fixed;
-}
-.marcoHome{
-    border: 2px solid;
-}
-
-a{
-    font-family:'Dosis', sans-serif;
-    text-decoration:none;
-    font-size: 15px;
-    margin: 10px 10px 10px 10px ;
-
-    color: black;
-
-}
-
-nav ul li {
-    display: inline-block;
-}
-.tituloHome{
-    font-family:'Dosis', sans-serif;
-    font-size: 100px;
-    text-align: center;
-}
-.subtituloHome{
-    font-family:'Dosis', sans-serif;
-    font-size: 20px;
-    color: rgb(255, 255, 255);
-}
-.ejeImagenes{
-    display: flex;
-    flex-direction: column;   
-    justify-content: end;
-    margin: 9% 0% 0% 0% ;
-}
-.contenedorImagenes{
-    display: flex;
-    justify-content: space-around;
-}
-img {
-    max-width: 100%;
-    max-height: 100%;
-    border: 5px black solid;
-}
-.imagenes{
-    max-width: 250px;
-    max-height: 250px;
-    margin: 10px 10px 10px 10px;
-    
-}
-.fondoHome{
-    background-image: url(../img/playa_4k.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 103%;
-
-}
-figcaption{
-    text-align: center;
-    font-family:'Dosis', sans-serif;
-    color: rgb(0, 0, 0);
-    font-size: large;
-}
-.imagenArgentina{
-    max-width: 254px;
-    max-height: 250px;
-    margin: 10px 10px 10px 10px;
-}
-footer{
-    background-color: black;
-    display: flex;
-}
-.buscadorHome input[type=text] {
-  padding: 6px 6px 6px 6px;
-  border-radius: 30px;
-  margin-top: 8px;
-  margin-right: 16px;
-  font-size: 17px;
-  border: black 2px;
-}
-.buscadorHome{
-    display: flex;
-    flex-direction: column;
-    margin: 10% 20% 0% 20%;
-}
- -------------------------------------------------------------------------------------------------------------Home
-.headerGeneral{
-    border: 5px black solid;
-    padding: 1%;
-    background-color: aquamarine;
-    position: fixed;
-    width: 100%;
-}
-.navGeneral{
-    display: flex;
-    justify-content: space-between;
-    padding: 0% 5% 0% 0%;
-}
-.buscadorGeneral input[type=text] {
-  padding: 6px 500px 6px 6px;
-  border-radius: 30px;
-  font-size: 17px;
-  border: black 2px;
-}
-.buscadorGeneral{
-    display: flex;
-    flex-direction: column;
-}
-.tituloGeneral{
-    font-family:'Dosis', sans-serif;
-    font-size: x-large;
-}
-------------------------------------------------------------------------------------------------------HeaderGeneral
-.contenedorSection{
-    margin-top: 0%;
-}
-.hoteles{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-}
-.imagenesHoteles{
-    margin: 8%;
-}
-/*------------------------------------------------------------------------------------------------------hoteles
+.letras{
+font-family:'Dosis', sans-serif; 
+}  
 .fondoLugares{
     background-image:url(../img/mapaHoteles.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     margin-top: 0%;
+<<<<<<< HEAD
 }
 /*------------------------------------------------------------------------------------------------------lugares
 form{
@@ -550,4 +425,6 @@ figcaption{
     .ayuda{
         text-align: center;
     }
+=======
+>>>>>>> bootstrap
 }
