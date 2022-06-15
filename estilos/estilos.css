@@ -9,3 +9,9 @@ font-family:'Dosis', sans-serif;
 .margenIMG{
     
 }
+.fondoLugares{
+    background-image:url(../img/mapaHoteles.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 0%;
+}
