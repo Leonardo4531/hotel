@@ -5,10 +5,7 @@
 }
 .letras{
 font-family:'Dosis', sans-serif; 
-}
-.margenIMG{
-    
-}
+}  
 .fondoLugares{
     background-image:url(../img/mapaHoteles.jpg);
     background-size: 100%;
